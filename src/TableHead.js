@@ -12,6 +12,7 @@ function TableHead() {
         <th scope="col">roomid</th>
         <th scope="col">checkInDate</th>
         <th scope="col">checkOutDate</th>
+        <th scope="col">No of Nights</th>
       </tr>
     </thead>
   );
