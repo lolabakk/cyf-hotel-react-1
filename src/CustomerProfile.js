@@ -13,9 +13,13 @@ const CustomerProfile = ({ id }) => {
         {" "}
         <div>Customer profile {clientProfile.id}</div>
         <div>
-          <p>id:{clientProfile.id}</p>
-          <p>email:{clientProfile.email}</p>
-          <p>phone:{clientProfile.phoneNumber}</p>
+          <ul>
+            {/* <li>{clientProfile.id}</li> */}
+            <li>{clientProfile.firstName}</li>
+            <li>{clientProfile.surname}</li>
+            <li>{clientProfile.email}</li>
+            {clientProfile.vip ? <li>{clientProfile.phoneNumber}</li> : null}
+          </ul>
         </div>
       </>
     ) : (

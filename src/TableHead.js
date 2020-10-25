@@ -1,7 +1,7 @@
 import React from "react";
 const TableHead = () => {
   return (
-    <thead>
+    <thead className="thead-dark">
       <tr>
         <th scope="col ">id</th>
         <th scope="col ">Title</th>

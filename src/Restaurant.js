@@ -5,11 +5,12 @@ const Restaurant = () => {
   return (
     <div>
       <h3>Restaurant Orders</h3>
-      <ul className="Orders">
+      <div className="restaurant-order row">
+        <div className="orders col-12 lg-col-12" />
         <Orders orderType="Pizzas" />
         <Orders orderType="Salads" />
         <Orders orderType="Chocolate cake" />
-      </ul>
+      </div>
     </div>
   );
 };

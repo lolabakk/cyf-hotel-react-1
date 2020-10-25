@@ -24,6 +24,19 @@
   display: flex;
 }
 
+.imgCard {
+  height: 600px;
+  max-width: auto;
+  overflow: hidden;
+}
+h3 {
+  text-align: center;
+}
+
+img {
+  height: 900px;
+  width: 100%;
+}
 .App-title {
   font-size: 1.5em;
 }
@@ -44,20 +57,76 @@
 .search {
   padding: 5px 0 20px 0;
 }
+.table-head {
+  background-color: #d2d2d2;
+  font-weight: bold;
+}
+
+.card TouristCard {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.restaurant-order row {
+  background-color: red;
+}
 
 tr {
-  color: #5b5757;
+  color: #899797;
+}
+.tableHeading {
+  background-color: rgb(29, 23, 23);
+  color: white;
 }
 
 .results {
   padding-top: 15px;
 }
 
+.restaurant-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.orders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
   padding-top: 20px;
   text-align: center;
+  margin-top: 50px;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222;
+  height: 50px;
+  padding: 20px 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .card {
-  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
